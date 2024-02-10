@@ -125,7 +125,7 @@ ul li{color: white;}
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+    grid-template-columns: repeat(4, minmax(24%, 1fr));
     grid-template-rows: auto;
 }
 
@@ -361,7 +361,7 @@ footer p{
         width: 220px;
     }
     .grid-of-profiles{
-        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-columns: repeat(3, minmax(50%, 1fr));
     }
 }
 @media screen and (max-width:600px) {
@@ -370,13 +370,13 @@ footer p{
         width: 250px;
     }
     .grid-of-profiles{
-        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-columns: repeat(2, minmax(50%, 1fr));
     }
 }
 @media screen and (max-width:500px) {
     .profile{margin: 1% auto;}
     .grid-of-profiles{
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-columns: repeat(1, minmax(100%, 1fr));
     }
 }
 
