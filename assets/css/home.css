@@ -364,7 +364,7 @@ footer p{
         grid-template-columns: repeat(3, minmax(50%, 1fr));
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
     .profile{margin: 1% auto;}
     .profile{
         width: 250px;
