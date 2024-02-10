@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+Options -Indexes
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#DELHI
+RewriteRule ^call-girls-in-hazratganj/?$ /call-girls-in-hazratganj.html [R=301,L]
+RewriteRule ^call-girls-in-charbagh/?$ /call-girls-in-charbagh.html [R=301,L]
+RewriteRule ^call-girls-in-gomti-nagar/?$ /call-girls-in-gomti-nagar.html [R=301,L]
+RewriteRule ^disclaimer/?$ /disclaimer.html [R=301,L]
+RewriteRule ^privacy-policy/?$ /privacy-policy.html [R=301,L]
+RewriteRule ^contact-us/?$ /contact-us.html [R=301,L]
+RewriteRule ^about-us/?$ /about-us.html [R=301,L]
+#PAGES
+
+ReWriteRule ^$ index.html [NC,L]
