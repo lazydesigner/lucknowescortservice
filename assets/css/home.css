@@ -49,12 +49,16 @@ ul li{color: white;}
 
 .content h1{
     font-size: 2.5rem;
+    color: #FFD322;
 }
 .content h2{
     font-size: 2rem;
+    color: #FFD322;
 }
-.content h3{font-size: 1.5rem;}
-.content h4{font-size: 1.3rem;}
+.content h3{font-size: 1.5rem;
+    color: #FFD322;}
+.content h4{font-size: 1.3rem;
+    color: #FFD322;}
 .content a{font-weight: bolder;color: #f1de07;}
 
 .faq {
@@ -72,6 +76,8 @@ ul li{color: white;}
     border-radius: 10px;
     transition: all 0.3s ease-out;
 }
+.question h4{
+    color:black;}
 
 .question:hover {
     background-color: #ebebeb;
@@ -282,8 +288,8 @@ footer{
     height: auto;
     color: black;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding: 1% 4%;
     justify-content: space-evenly;
 }
 footer ul{
@@ -294,7 +300,16 @@ footer ul{
     font-size: 2rem;
 }
 .footer-col ul{
-    margin-top: 3%;
+    list-style: none;
+    width: 100%;
+    background-color:#213280;
+    background-image: linear-gradient(to top, #213280 ,#D20C86);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-col ul li{
     margin: 2% 0;
@@ -303,6 +318,7 @@ footer ul{
 }
 .footer-col ul li a{
     font-size: 1.3rem;
+    color: white;
 }
 .footer-col{
     flex: 1;
