@@ -350,7 +350,7 @@ footer p{
     position: fixed;
     bottom: 4%;
     left: 1%;
-    display: grid;
+    display: none;
     place-items: center;
     background-color: dodgerblue;
 }
