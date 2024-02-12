@@ -416,6 +416,7 @@ footer p{
     .grid-of-profiles{
         grid-template-columns: repeat(2, minmax(50%, 1fr));
     }
+    .big-profile{flex-wrap: wrap;}
 }
 @media screen and (max-width:500px) {
     .profile{margin: 1% auto;}
