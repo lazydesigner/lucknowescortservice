@@ -12,6 +12,8 @@ RewriteRule ^disclaimer/?$ /disclaimer.html [R=301,L]
 RewriteRule ^privacy-policy/?$ /privacy-policy.html [R=301,L]
 RewriteRule ^contact-us/?$ /contact-us.html [R=301,L]
 RewriteRule ^about-us/?$ /about-us.html [R=301,L]
+RewriteRule ^russian-escorts-in-luckow/?$ https://charmykaur.com [R=301,L]
+RewriteRule ^housewife-escorts/?$ https://charmykaur.com [R=301,L]
 #PAGES
 
 ReWriteRule ^$ index.html [NC,L]
